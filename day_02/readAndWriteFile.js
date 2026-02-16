@@ -10,11 +10,6 @@ const appendFileSync = (file, data) => {
 }
 
 
-
-
-
-
-
 const readFileSync = (path) => {
     try {
         const data = fs.readFileSync(path, "utf-8");
