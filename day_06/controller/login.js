@@ -14,5 +14,5 @@ const userLogin = async (userDetail) => {
         console.log("user is not existing");
         return;
     }
-
+    (user[0].password === password) ? console.log("Login Successful") : console.log("Incorrect password");
 }
