@@ -8,7 +8,6 @@ const userLogin = async (userDetail) => {
         console.log("user is not existing");
         return;
     }
-
     const user = users.filter((u) => u.email === email);
     console.log(user);
     
